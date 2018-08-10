@@ -23,15 +23,13 @@
     if (![font  isEqual: @""]) {
         NSLog(@"%@", font);
     }
+    
+    self.navigationItem.title = font;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    
-
-    
 }
 
 
@@ -41,4 +39,26 @@
 }
 
 
+- (IBAction)formatText:(id)sender {
+}
+
+- (IBAction)red:(id)sender {
+}
+
+- (IBAction)blue:(id)sender {
+}
+
+- (IBAction)green:(id)sender {
+}
+- (IBAction)shadowEffect:(id)sender {
+}
+
+- (IBAction)small:(id)sender {
+}
+
+- (IBAction)medium:(id)sender {
+}
+
+- (IBAction)large:(id)sender {
+}
 @end
