@@ -55,7 +55,7 @@ NSArray *tableData;
 {
     NSString *selectedItem = [tableData objectAtIndex:indexPath.row];
     AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    NSLog(@"%@", selectedItem);
+    
     delegate.selectedFont = selectedItem;
     
 }

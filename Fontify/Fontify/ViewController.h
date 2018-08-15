@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController {
     CGFloat fontSize;
     BOOL state;
+    NSString *fontName;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;

@@ -13,27 +13,8 @@
 		58C0770B211D54BB0007B4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C0770A211D54BB0007B4C1 /* Assets.xcassets */; };
 		58C0770E211D54BB0007B4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C0770C211D54BB0007B4C1 /* LaunchScreen.storyboard */; };
 		58C07711211D54BB0007B4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C07710211D54BB0007B4C1 /* main.m */; };
-		58C0771B211D54BB0007B4C1 /* FontifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C0771A211D54BB0007B4C1 /* FontifyTests.m */; };
-		58C07726211D54BB0007B4C1 /* FontifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C07725211D54BB0007B4C1 /* FontifyUITests.m */; };
 		58C07735211D5A220007B4C1 /* ShowFontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C07734211D5A220007B4C1 /* ShowFontsViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		58C07717211D54BB0007B4C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 58C076F6211D54B80007B4C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58C076FD211D54B80007B4C1;
-			remoteInfo = Fontify;
-		};
-		58C07722211D54BB0007B4C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 58C076F6211D54B80007B4C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58C076FD211D54B80007B4C1;
-			remoteInfo = Fontify;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		58C076FE211D54B80007B4C1 /* Fontify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fontify.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,32 +27,12 @@
 		58C0770D211D54BB0007B4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58C0770F211D54BB0007B4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C07710211D54BB0007B4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		58C07716211D54BB0007B4C1 /* FontifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58C0771A211D54BB0007B4C1 /* FontifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontifyTests.m; sourceTree = "<group>"; };
-		58C0771C211D54BB0007B4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58C07721211D54BB0007B4C1 /* FontifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58C07725211D54BB0007B4C1 /* FontifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontifyUITests.m; sourceTree = "<group>"; };
-		58C07727211D54BB0007B4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C07733211D5A220007B4C1 /* ShowFontsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowFontsViewController.h; sourceTree = "<group>"; };
 		58C07734211D5A220007B4C1 /* ShowFontsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowFontsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		58C076FB211D54B80007B4C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58C07713211D54BB0007B4C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58C0771E211D54BB0007B4C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				58C07700211D54B80007B4C1 /* Fontify */,
-				58C07719211D54BB0007B4C1 /* FontifyTests */,
-				58C07724211D54BB0007B4C1 /* FontifyUITests */,
 				58C076FF211D54B80007B4C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				58C076FE211D54B80007B4C1 /* Fontify.app */,
-				58C07716211D54BB0007B4C1 /* FontifyTests.xctest */,
-				58C07721211D54BB0007B4C1 /* FontifyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,24 +76,6 @@
 			path = Fontify;
 			sourceTree = "<group>";
 		};
-		58C07719211D54BB0007B4C1 /* FontifyTests */ = {
-			isa = PBXGroup;
-			children = (
-				58C0771A211D54BB0007B4C1 /* FontifyTests.m */,
-				58C0771C211D54BB0007B4C1 /* Info.plist */,
-			);
-			path = FontifyTests;
-			sourceTree = "<group>";
-		};
-		58C07724211D54BB0007B4C1 /* FontifyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				58C07725211D54BB0007B4C1 /* FontifyUITests.m */,
-				58C07727211D54BB0007B4C1 /* Info.plist */,
-			);
-			path = FontifyUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,42 +96,6 @@
 			productReference = 58C076FE211D54B80007B4C1 /* Fontify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58C07715211D54BB0007B4C1 /* FontifyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58C0772D211D54BB0007B4C1 /* Build configuration list for PBXNativeTarget "FontifyTests" */;
-			buildPhases = (
-				58C07712211D54BB0007B4C1 /* Sources */,
-				58C07713211D54BB0007B4C1 /* Frameworks */,
-				58C07714211D54BB0007B4C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58C07718211D54BB0007B4C1 /* PBXTargetDependency */,
-			);
-			name = FontifyTests;
-			productName = FontifyTests;
-			productReference = 58C07716211D54BB0007B4C1 /* FontifyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		58C07720211D54BB0007B4C1 /* FontifyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58C07730211D54BB0007B4C1 /* Build configuration list for PBXNativeTarget "FontifyUITests" */;
-			buildPhases = (
-				58C0771D211D54BB0007B4C1 /* Sources */,
-				58C0771E211D54BB0007B4C1 /* Frameworks */,
-				58C0771F211D54BB0007B4C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58C07723211D54BB0007B4C1 /* PBXTargetDependency */,
-			);
-			name = FontifyUITests;
-			productName = FontifyUITests;
-			productReference = 58C07721211D54BB0007B4C1 /* FontifyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,14 +107,6 @@
 				TargetAttributes = {
 					58C076FD211D54B80007B4C1 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					58C07715211D54BB0007B4C1 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 58C076FD211D54B80007B4C1;
-					};
-					58C07720211D54BB0007B4C1 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 58C076FD211D54B80007B4C1;
 					};
 				};
 			};
@@ -229,8 +124,6 @@
 			projectRoot = "";
 			targets = (
 				58C076FD211D54B80007B4C1 /* Fontify */,
-				58C07715211D54BB0007B4C1 /* FontifyTests */,
-				58C07720211D54BB0007B4C1 /* FontifyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,20 +136,6 @@
 				58C0770E211D54BB0007B4C1 /* LaunchScreen.storyboard in Resources */,
 				58C0770B211D54BB0007B4C1 /* Assets.xcassets in Resources */,
 				58C07709211D54B80007B4C1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58C07714211D54BB0007B4C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58C0771F211D54BB0007B4C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,36 +153,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58C07712211D54BB0007B4C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58C0771B211D54BB0007B4C1 /* FontifyTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58C0771D211D54BB0007B4C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58C07726211D54BB0007B4C1 /* FontifyUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		58C07718211D54BB0007B4C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 58C076FD211D54B80007B4C1 /* Fontify */;
-			targetProxy = 58C07717211D54BB0007B4C1 /* PBXContainerItemProxy */;
-		};
-		58C07723211D54BB0007B4C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 58C076FD211D54B80007B4C1 /* Fontify */;
-			targetProxy = 58C07722211D54BB0007B4C1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		58C07707211D54B80007B4C1 /* Main.storyboard */ = {
@@ -469,80 +319,6 @@
 			};
 			name = Release;
 		};
-		58C0772E211D54BB0007B4C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55HT2TPY98;
-				INFOPLIST_FILE = FontifyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yashganorkar.FontifyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fontify.app/Fontify";
-			};
-			name = Debug;
-		};
-		58C0772F211D54BB0007B4C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55HT2TPY98;
-				INFOPLIST_FILE = FontifyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yashganorkar.FontifyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fontify.app/Fontify";
-			};
-			name = Release;
-		};
-		58C07731211D54BB0007B4C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55HT2TPY98;
-				INFOPLIST_FILE = FontifyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yashganorkar.FontifyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Fontify;
-			};
-			name = Debug;
-		};
-		58C07732211D54BB0007B4C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55HT2TPY98;
-				INFOPLIST_FILE = FontifyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yashganorkar.FontifyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Fontify;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,24 +336,6 @@
 			buildConfigurations = (
 				58C0772B211D54BB0007B4C1 /* Debug */,
 				58C0772C211D54BB0007B4C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58C0772D211D54BB0007B4C1 /* Build configuration list for PBXNativeTarget "FontifyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58C0772E211D54BB0007B4C1 /* Debug */,
-				58C0772F211D54BB0007B4C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58C07730211D54BB0007B4C1 /* Build configuration list for PBXNativeTarget "FontifyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58C07731211D54BB0007B4C1 /* Debug */,
-				58C07732211D54BB0007B4C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
